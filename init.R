@@ -3,7 +3,7 @@
 # R code to install packages if not already installed
 #
 
-my_packages = c(
+#my_packages = c(
 #  "beeswarm",
 #  "collapsibleTree",
 #  "curl",
@@ -34,28 +34,28 @@ my_packages = c(
 #  "RJSONIO",
 #  "rpivotTable",
 #  "RPostgreSQL",
-  "shiny",
+#  "shiny",
 #  "shinyalert",
 #  "shinycssloaders",
-  "shinydashboard",
-  "shinyjs",
-  "shinyWidgets",
+#  "shinydashboard",
+#  "shinyjs",
+#  "shinyWidgets",
 #  "stringi",
 #  "summarytools",
 #  "tibble",
 #  "tidyverse",
 #  "webshot",
 #  "xts",
-  "zoo"
-  )
+#  "zoo"
+#  )
 
-install_if_missing = function(p) {
-  if (p %in% rownames(installed.packages()) == FALSE) {
-    install.packages(p)
-  }
-}
+#install_if_missing = function(p) {
+#  if (p %in% rownames(installed.packages()) == FALSE) {
+#    install.packages(p)
+#  }
+#}
 
-invisible(sapply(my_packages, install_if_missing))
+#invisible(sapply(my_packages, install_if_missing))
 
 #webshot::install_phantomjs()
 
