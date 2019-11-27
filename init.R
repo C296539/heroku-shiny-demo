@@ -4,19 +4,19 @@
 #
 
 my_packages = c(
-  "beeswarm",
-  "collapsibleTree",
-  "curl",
-  "data.table",
-  "data.tree",
-  "DBI",
-  "DescTools",
-  "dplyr",
-  "DT",
-  "dygraphs",
-  "future",
-  "gtools",
-  "gridExtra",
+#  "beeswarm",
+#  "collapsibleTree",
+#  "curl",
+#  "data.table",
+#  "data.tree",
+#  "DBI",
+#  "DescTools",
+#  "dplyr",
+#  "DT",
+#  "dygraphs",
+#  "future",
+#  "gtools",
+#  "gridExtra",
 #  "htmlwidgets",
 #  "httr",
 #  "jsonlite",
@@ -57,6 +57,6 @@ install_if_missing = function(p) {
 
 invisible(sapply(my_packages, install_if_missing))
 
-webshot::install_phantomjs()
+#webshot::install_phantomjs()
 
-remotes::install_github("blmoore/rjsonpath")
+#remotes::install_github("blmoore/rjsonpath")
